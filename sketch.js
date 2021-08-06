@@ -28,7 +28,7 @@ function draw() {
   
   edges= createEdgeSprites();
   
-  boy.velocityX = World.mouseX
+  boy.x = World.mouseX
 
   //code to reset the background
   if(path.y > 400 ){
